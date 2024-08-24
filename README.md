@@ -18,6 +18,8 @@ Instala las siguientes librerías antes de ejecutar el notebook:
 !pip install pymupdf
 ```
 
+![install](imgs/gcb_01.png)
+
 ## Importación de Librerías
 
 ```python
@@ -57,6 +59,8 @@ Extrae el texto de todos los archivos PDF y guarda el texto junto con el nombre 
 ```python
 cv_texts = [(file, extract_text_from_pdf(file)) for file in cv_files]
 ```
+
+![files](imgs/gcb_02.png)
 
 ### Valores de Referencia
 
@@ -161,3 +165,5 @@ for result in results:
     print()
     print("########################################")
 ```
+
+![ans](imgs/gcb_03.png)
